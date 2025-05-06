@@ -1,0 +1,35 @@
+
+bhcc_data_extraction.node_body:
+  path: '/admin/node-body-extraction'
+  defaults:
+    _controller: 'Drupal\bhcc_data_extraction\Controller\BodyDataExtractionController::nodeBodyExtraction'
+    _title: 'Body field data extraction'
+  requirements: 
+    _permission: 'access content'
+
+
+bhcc_data_extraction.node_html:
+  path: '/admin/html-data-extraction'
+  defaults:
+    _controller: 'Drupal\bhcc_data_extraction\Controller\HTMLDataExtractionController::extractionData'
+    _title: 'HTML Page data extraction'
+  requirements: 
+    _permission: 'access content'
+
+
+bhcc_data_extraction.node_subsites:
+  path: '/admin/subsites-data-extraction'
+  defaults:
+    _controller: 'Drupal\bhcc_data_extraction\Controller\SubsitesDataExtractionController::subsitesExtraction'
+    _title: 'Subsite and Subsite overview data extraction'
+  requirements: 
+    _permission: 'access content'
+
+
+bhcc_data_extraction.node_html_ids:
+  path: '/admin/node-data-extraction'
+  defaults:
+    _controller: 'Drupal\bhcc_data_extraction\Controller\UniversalDataExtractionController::dataExtraction'
+    _title: 'Universal page data extraction'
+  requirements: 
+    _permission: 'access content'

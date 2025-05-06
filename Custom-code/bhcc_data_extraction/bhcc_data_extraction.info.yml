@@ -1,0 +1,7 @@
+name: 'Data Extraction'
+type: module
+description: 'Searches through body fields to extract data based on regexes.'
+core_version_requirement: ^10 || ^11
+package: 'BHCC'
+dependencies:
+  - drupal:field
