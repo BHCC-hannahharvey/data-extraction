@@ -6,7 +6,7 @@ A set of scripts and tools designed to extract structured data (e.g. email addre
 
 - 🔍 Extracts email addresses, phone numbers, and other data from nodes
 - 🧩 Supports custom content types and fields
-- 💾 Outputs to structured formats (e.g. CSV, JSON)
+- 💾 Outputs to structured formats (e.g. CSV, JSON, HTML Browser page)
 
 
 ## Table of Contents
