@@ -18,7 +18,7 @@ class BodyDataExtractionController extends ControllerBase {
    *
    * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    */
-  protected $entityTypeManager; // ✅ Removed type to avoid conflict with ControllerBase.
+  protected $entityTypeManager; 
 
   /**
    * Constructor.
